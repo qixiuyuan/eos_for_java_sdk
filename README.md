@@ -1,8 +1,7 @@
 # eos_for_java_sdk
 eos for java off line sign
 
-System.out.println("******************* Ecc Start *******************\n");
-		
+System.out.println("******************* Ecc Start *******************\n");		
 		System.out.println("============= 通过种子生成私钥 ===============");
 		String pk = Ecc.seedPrivate("!@#$%^&*(lajdlkjaksjdlkjaskldM<>?87126162kajsdjlaksd kajdlkaslkd heiuheijpe f[a- si0ausd9asd ahsdvcyasdcasdc ajhsdg8ca"
 				+ "we asds JHDKAHDKKASDKJALSKDKA ooidjajsdua09sid0asdo[paksdajsdlklasdmlk FJKLIKNLK;B/;LP[P'NC;PO'; OOPO;L0["
@@ -28,9 +27,7 @@ System.out.println("******************* Ecc Start *******************\n");
 		System.out.println("seriz data :" + data1);
 		System.out.println("account eq eosjs seriz " + data1.equals(eosjs_account_seriz));
 
-		
 		System.out.println("\n******************* Ecc End *******************\n\n\n");
-		
 		
 		System.out.println("******************* Rpc Start *******************\n");
 		
@@ -55,7 +52,6 @@ System.out.println("******************* Ecc Start *******************\n");
 		}catch(Exception ex) {
 			ex.printStackTrace();
 		}
-		
 		try {
 			Actions actions = rpc.getActions("eosqxyx22222", 0, 10);
 			if (actions != null) {
